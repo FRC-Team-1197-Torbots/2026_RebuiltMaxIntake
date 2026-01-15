@@ -10,11 +10,11 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants.ScoringConstants;
 
 
-public class ScoringSubsystem extends SubsystemBase {
+public class IntakeSubsystem extends SubsystemBase {
     private final SparkFlex m_turningMotor;
     private final boolean isRunning = false;
 
-    public ScoringSubsystem() {
+    public IntakeSubsystem() {
         m_turningMotor = new SparkFlex(ScoringConstants.kScoringTurningCanId, MotorType.kBrushless);
     }
 
